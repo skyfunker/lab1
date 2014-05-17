@@ -1,0 +1,15 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {margin: 50px; padding: 0px;}            
+#drawing {float: left;}			
+#main { float: right; width:500px;}			
+#scheme {border: 1px solid #000000; background-color: #ffffff;}
+#tablekpd { border: 1px solid #000000; width: 90%;}
+td {text-align: center;}
+div.divkpd {margin-top: 20px;}
+#params {width: 90%;}
+#myChart {border: 0px solid #000000; background-color: #ffffff; 
+          margin-top: 10px; margin-bottom: 10px;}
+input[type=number] {width:50px;}

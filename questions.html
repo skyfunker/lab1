@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/questions.css">
+    <script src="js/questions.js"></script>
+    </head>
+    <body>
+
+
+        <h1>Дайте правильні відповіді на наступні питання</h1>
+        <div id="result">Кількість спроб: <span id="attempt">3</span></div>
+        <form>
+            <fieldset>
+                <legend></legend>
+                <div id="card">
+                    <div id="question"></div>
+                    <div id="answers">
+
+                        <input type = "radio"
+                               name = "answer"
+                               id = "ans1"
+                               value = "" />
+                        <label id ="labelans1" for = "ans1"></label>
+                        <br/>
+                        <input type = "radio"
+                               name = "answer"
+                               id = "ans2"
+                               value = "" />
+                        <label id ="labelans2" for = "ans2"></label>
+                        <br/>
+
+                        <input type = "radio"
+                               name = "answer"
+                               id = "ans3"
+                               value = "" />
+                        <label id ="labelans3" for = "ans3"></label>
+                        <br/>
+                         <input type = "radio"
+                               name = "answer"
+                               id = "ans4"
+                               value = "" />
+                        <label id ="labelans4" for = "ans4"></label>
+                    </div>
+
+
+                </div>
+            </fieldset>
+            <br/>
+            <input type="button" id="btnOK" onclick="javascript:btnOK_onclick();" value="Далі >>" />
+        </form>
+    </body>
+</html>
